@@ -4,6 +4,8 @@
 
 一个以「编译大于检索」为核心的个人知识库方法论与骨架。以个人实践为锚，把外部材料往回织进主题判断，又主动逆着锚点找反例。纯文件，零数据库 / 零向量库 / 零 RAG。
 
+> 灵感来自于 Andrej Karpathy 的 LLM Wiki。
+
 ## 为什么
 
 大多数知识管理工具靠「收藏 + 检索」：信息越堆越多，需要时再搜。问题是收藏 ≠ 吸收，检索到的碎片也拼不成判断。
@@ -21,7 +23,7 @@
 ## 快速上手
 
 ```bash
-git clone <本仓库> my-kb
+git clone https://github.com/Joyyi-11/zhiyi-builder.git my-kb
 cd my-kb
 pip install python-frontmatter
 cp templates/inbox.md thoughts/inbox.md
@@ -52,6 +54,10 @@ docs/          快速上手 / 方法论 / 自定义
 - [方法论](docs/methodology.md)——核心理念与 knowledge_role 三分
 - [运行规则](AGENTS.md)——给 AI agent 的指令（语义层）
 - [自定义](docs/customize.md)——标签体系、外部发现源、写作 Skill
+
+## 作者
+
+连漪（Lianyi）
 
 ## License
 

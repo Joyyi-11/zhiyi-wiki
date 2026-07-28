@@ -4,3 +4,6 @@ __pycache__/
 
 # 个人想法暂存，不入公开仓库
 thoughts/inbox.md
+
+# WorkBuddy 工作目录，不入公开仓库
+.workbuddy/
