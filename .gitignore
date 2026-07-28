@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# 个人想法暂存，不入公开仓库
+thoughts/inbox.md
