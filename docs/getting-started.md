@@ -5,7 +5,7 @@
 ## 1. 初始化
 
 ```bash
-git clone https://github.com/Joyyi-11/zhiyi-wiki.git my-kb
+git clone https://github.com/Joyyi-11/zhixin-wiki.git my-kb
 cd my-kb
 cp templates/inbox.md thoughts/inbox.md   # 建立你的想法暂存（已被 gitignore，不会公开）
 python scripts/build_index.py             # 生成初始 INDEX.md
